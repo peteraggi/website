@@ -88,6 +88,8 @@ section{
     font-weight: 300;
     margin-bottom: 10px;
     font-size: 14px;
+    color: gray;
+
     
 }
 .heading.bottom{
@@ -99,6 +101,8 @@ section{
 }
 .contentbx.w40 p{
     font-size: 13px;
+    color: gray;
+    
 }
 .bt{
     margin-top: 20px;;
@@ -238,7 +242,10 @@ header.sticky ul li a{
 }
 /* Creating Testimonial Layout in CSS */
 .testimonial{
-    background:#111;
+    background: white;
+}
+.heading.whit p{
+    color: grey;
 }
 .testimonial .content{
     display:flex;
@@ -251,11 +258,11 @@ header.sticky ul li a{
     padding:60px 40px;
     margin:20px;
     max-width:calc(50% - 40px);
-    border-bottom-left-radius: 20%;
-    border-bottom-right-radius: 20%;
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 30%;
 }
 .testimonial .content .testimonialBx:hover{
-    border-bottom:2px solid #009e66;
+    border-bottom:4px solid green;
     cursor:pointer;
 }
 .testimonial .content .testimonialBx p{
@@ -274,15 +281,16 @@ header.sticky ul li a{
     line-height: 1.7em;
     font-size: 20px;
     font-style: italic;
+    font-family: "Times New Roman", Times, serif;
 }
 
 /* Creating Contact Details Layout in CSS */
 .contact{
-    background:#111;
+    background:lightgray;
 }
 
 .formBx{
-    min-width:60%;
+    min-width:50%;
 }
 .formBx form{
     display:flex;
@@ -290,7 +298,7 @@ header.sticky ul li a{
 }
 .formBx form h3,
 .contactInfo h3{
-    color:#fff;
+    color:green;
     font-size: 20px;
     font-weight: 500;
     margin-bottom: 10px;
@@ -304,6 +312,7 @@ header.sticky ul li a{
     border:none;
     outline:none;
     background:#161616;
+    border-radius: 40px;
     resize:vertical;
     color:#fff;
 }
@@ -336,7 +345,7 @@ header.sticky ul li a{
     min-width:40%;
 }
 .contactInfo p{
-    color:#999;
+    color:#111;
 }
 .contactInfoBx{
     position:relative;
@@ -356,7 +365,7 @@ header.sticky ul li a{
     font-size: 24px;
 }
 .contactInfoBx .box .text{
-    color:#999;
+    color:#111;
     margin-left:20px;
     font-size: 16px;
     flex-direction: column;
@@ -369,7 +378,7 @@ header.sticky ul li a{
 }
 .contactInfoBx .box .text p{
     font-weight: 300;
-    color:#999;
+    color:#111;
 }
 .contactInfoBx .boxSocial{
     display:flex;
@@ -388,6 +397,7 @@ footer.copyright{
     color:#fff;
     text-align: center;
     padding:10px;
+    height: 15vh;
 }
 @media (max-width: 991px)
 {
